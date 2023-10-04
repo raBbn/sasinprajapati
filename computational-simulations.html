@@ -26,6 +26,10 @@
   <link rel="stylesheet" href="path/to/lightbox2/css/lightbox.min.css">
 
   <script src="path/to/lightbox2/js/lightbox.min.js"></script>
+
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
   <style type="text/css">
     .photo-gallery {
     padding: 40px 0;
@@ -81,13 +85,14 @@
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <!-- ======= Header ======= -->
  <!-- ======= Header ======= -->
   <header id="header">
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile.jpg" alt="" class="img-fluid rounded-circle">
+        <a href="index.html">
+           <img src="assets/img/profile_v1.jpg" alt="" class="img-fluid rounded-circle">
+        </a>
         <h1 class="text-light"><a href="index.html">Er. Sasin Prajapati</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://www.facebook.com/sasin.prajapati" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
@@ -95,6 +100,7 @@
           <a href="https://www.linkedin.com/in/sasin-prajapati-587969182/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
         </div>
         <h3 class="text-light"><a target="_blank" href="https://www.researchgate.net/profile/Sasin-Prajapati">Research Gate</a></h3>
+
       </div>
 
 
@@ -106,7 +112,7 @@
           <li><a href="index.html#skills" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Skills</span></a></li>
           <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="index.html#research" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Research Projects</span></a></li>
-       
+         <!--  <li><a href="#awards" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Awards and Certificates</span></a></li> -->
           <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -154,9 +160,161 @@
          
           </div>
 
+           <section id="photo-gallery" class="photo-gallery">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 col-md-12 gallery-item">
+                      <a href="assets/img/frp/a.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                          <img src="assets/img/frp/a.jpg" alt="Gallery Photo 1">
+                          <div class="overlay">
+                              <div class="text">View</div>
+                          </div>
+                      </a>
+                  </div>
+                
+                  <div class="col-lg-4 col-md-12 gallery-item">
+                      <a href="assets/img/frp/b.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                          <img src="assets/img/frp/b.jpg" alt="Gallery Photo 1">
+                          <div class="overlay">
+                              <div class="text">View</div>
+                          </div>
+                      </a>
+                  </div>
+                    <div class="col-lg-4 col-md-12 gallery-item">
+                      <a href="assets/img/frp/c.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                          <img src="assets/img/frp/c.jpg" alt="Gallery Photo 1">
+                          <div class="overlay">
+                              <div class="text">View</div>
+                          </div>
+                      </a>
+                  </div>
+                  
+                 
+              </div>
+          </div>
+      </section>
+
+
+
         </div>
 
       </div>
+
+      <div class="col-lg-12 col-md-12">
+            <section id="gallery-title">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12 text-center">
+                          <h2>Bridge Design</h2>
+                          <hr class="my-4">
+                      </div>
+                  </div>
+              </div>
+            </section>
+
+            <section id="photo-gallery" class="photo-gallery">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-6 col-md-12 gallery-item">
+                          <a href="assets/img/research/Simulations/bridge/a.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/research/Simulations/bridge/a.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-6 col-md-12 gallery-item">
+                          <a href="assets/img/research/Simulations/bridge/b.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/research/Simulations/bridge/b.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-6 col-md-12 gallery-item">
+                          <a href="assets/img/research/Simulations/bridge/c.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/research/Simulations/bridge/c.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-6 col-md-12 gallery-item">
+                          <a href="assets/img/research/Simulations/bridge/d.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/research/Simulations/bridge/d.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-4 col-md-12 gallery-item">
+                          <a href="assets/img/research/Simulations/bridge/e.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/research/Simulations/bridge/e.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-4 col-md-12 gallery-item">
+                          <a href="assets/img/research/Simulations/bridge/f.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/research/Simulations/bridge/f.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                       <div class="col-lg-4 col-md-12 gallery-item">
+                          <a href="assets/img/research/Simulations/bridge/g.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/research/Simulations/bridge/g.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                    
+                   
+                     
+                  </div>
+              </div>
+            </section>
+
+          </div>
+
+             <hr class="my-4">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            
+
+            <iframe width="100%" height="499" src="https://www.youtube.com/embed/cJbe7zVAUlg" title="High-Rise Building Structural Analysis in ETABS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>High Rise Building Structural Analysis</h3>
+              <ul>
+                <li><strong>Project duration</strong>: Nov 2021 - Dec 2022</li>
+                <li><a href="https://www.researchgate.net/publication/369305746_3rd_NATIONAL_CONFERENCE_ON_EARTHQUAKE_ENGINEERING_-NEPAL_Numerical_Analysis_of_the_Performance_of_Two-Tiered_Nepalese_Pagoda_Narsingha_Temple" target="_blank">Numerical Analysis of the Performance of Two-tiered Nepalese Pagoda Narsingha Temple</a></li>
+              </ul>
+            </div>
+         
+          </div>
+
+          
+
+
+
+        </div>
+
+      </div>
+
+         <hr class="my-4">
+
     </section><!-- End Portfolio Details Section -->
 
     <!-- ======= Portfolio Details Section ======= -->
@@ -178,11 +336,100 @@
             <div class="portfolio-info">
               <h3>High Strength Reinforced Beam Flexural Test</h3>
               <ul>
-                <li><strong>Project duration</strong>: Nov 2021 - Dec 2022</li>
+                <li><strong>Project duration</strong>: Aug 2022 - Present</li>
              
               </ul>
             </div>
          
+          </div>
+
+           <section id="photo-gallery" class="photo-gallery">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-md-12 gallery-item">
+                      <a href="assets/img/frp/5.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                          <img src="assets/img/frp/5.jpg" alt="Gallery Photo 1">
+                          <div class="overlay">
+                              <div class="text">View</div>
+                          </div>
+                      </a>
+                  </div>
+                
+                  <div class="col-lg-6 col-md-12 gallery-item">
+                      <a href="assets/img/frp/7.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                          <img src="assets/img/frp/7.jpg" alt="Gallery Photo 1">
+                          <div class="overlay">
+                              <div class="text">View</div>
+                          </div>
+                      </a>
+                  </div>
+                    <div class="col-lg-6 col-md-12 gallery-item">
+                      <a href="assets/img/frp/6.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                          <img src="assets/img/frp/6.jpg" alt="Gallery Photo 1">
+                          <div class="overlay">
+                              <div class="text">View</div>
+                          </div>
+                      </a>
+                  </div>
+                  
+                 
+              </div>
+          </div>
+      </section>
+
+          <div class="col-lg-12 col-md-12">
+            <section id="gallery-title">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12 text-center">
+                          <h2>FRP Retrofit</h2>
+                          <hr class="my-4">
+                      </div>
+                  </div>
+              </div>
+            </section>
+
+            <section id="photo-gallery" class="photo-gallery">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-6 col-md-12 gallery-item">
+                          <a href="assets/img/frp/1.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/frp/1.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                    
+                      <div class="col-lg-6 col-md-12 gallery-item">
+                          <a href="assets/img/frp/3.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/frp/3.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                        <div class="col-lg-6 col-md-12 gallery-item">
+                          <a href="assets/img/frp/2.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/frp/2.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-lg-6 col-md-12 gallery-item">
+                          <a href="assets/img/frp/4.jpg" data-fancybox="gallery" data-caption="Gallery Photo 1">
+                              <img src="assets/img/frp/4.jpg" alt="Gallery Photo 1">
+                              <div class="overlay">
+                                  <div class="text">View</div>
+                              </div>
+                          </a>
+                      </div>
+                     
+                  </div>
+              </div>
+            </section>
+
           </div>
 
         </div>
